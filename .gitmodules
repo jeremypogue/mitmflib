@@ -1,0 +1,6 @@
+[submodule "impacket"]
+	path = impacket
+	url = https://github.com/CoreSecurity/impacket
+[submodule "dnslib"]
+	path = dnslib
+	url = https://github.com/paulchakravarti/dnslib

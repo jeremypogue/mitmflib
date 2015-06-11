@@ -1,5 +1,4 @@
-mitmflib/impacket-git/.git
-mitmflib/scapy-hg/.hg
+scapy/.hg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
