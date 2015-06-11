@@ -7,3 +7,9 @@
 [submodule "watchdog"]
 	path = watchdog
 	url = https://github.com/gorakhargosh/watchdog
+[submodule "pathtools"]
+	path = pathtools
+	url = https://github.com/gorakhargosh/pathtools
+[submodule "pyyaml"]
+	path = pyyaml
+	url = https://github.com/yaml/pyyaml
