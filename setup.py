@@ -46,7 +46,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['impacket', 'scapy', 'dnslib']),
+    packages=find_packages(),
 
     # List run-time dependencies here.  These will be installed by pip when
     # your project is installed. For an analysis of "install_requires" vs pip's
@@ -69,6 +69,8 @@ setup(
     #package_data={
     #    'sample': ['package_data.dat'],
     #},
+    include_package_data=True,
+    package_data={'mitmflib': ['ua_parser/regexes.yaml', 'ua_parser/regexes.json']},
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
