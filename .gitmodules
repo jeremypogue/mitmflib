@@ -4,3 +4,6 @@
 [submodule "dnslib"]
 	path = dnslib
 	url = https://github.com/paulchakravarti/dnslib
+[submodule "watchdog"]
+	path = watchdog
+	url = https://github.com/gorakhargosh/watchdog
