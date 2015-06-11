@@ -16,3 +16,6 @@
 [submodule "argh"]
 	path = argh
 	url = https://github.com/neithere/argh
+[submodule "python-user-agents"]
+	path = python-user-agents
+	url = https://github.com/selwin/python-user-agents
